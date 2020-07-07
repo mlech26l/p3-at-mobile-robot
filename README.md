@@ -50,6 +50,12 @@ Copy laptop public key to robot
 
 Edit /etc/hosts on robot and laptop to give names to the IP addresses of the robot and the laptop
 
+Don't forget to
+```
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+```
+
 make sure you can ssh from the laptop to the robot and vice versa without a password
 
 ## BASHRC
